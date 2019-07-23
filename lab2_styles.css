@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    text-align: center;
 }
 
 h1 {
@@ -26,14 +27,17 @@ a {
 
 span {
 	background-color: yellow;
-    opacity: 1;	
+    opacity: 1;
+    text-align: center;
 }
 
 form {
+    position: relative;
 	height: 200px;
 	width: 400px;
 	background-color: orange;
-    opacity: .9;	
+    opacity: .9;
+    margin: 0 auto;
 }
 
 input {
@@ -46,5 +50,16 @@ div {
 	width: 400px;
 	background-color: blue;
     opacity: .7;
-    	
+}
+
+body>p {
+    margin: 0 auto;
+}
+
+form>div {
+    position: absolute;
+    margin: 0 auto;
+    top: 50%;
+    transform: translateY(-50%);
+
 }
